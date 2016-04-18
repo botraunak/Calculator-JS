@@ -36,8 +36,10 @@ $(document).ready(function(){
 		function _clearHandler(){
 			var clearAction = $(this).text();
 			console.log(clearAction);
-			if(clearAction == "AC")
+			if(clearAction == "AC"){
+				res = {};
 				exp = "";
+			}
 			if(clearAction == "CE")
 				exp = exp.slice(0,-1);
 
