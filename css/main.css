@@ -30,7 +30,7 @@ body{
 .operations{
 	display: flex;
 	flex: 1;
-	background: #64b5f6;
+	background: #f57c00;
 	
 }
 
@@ -44,6 +44,10 @@ body{
 	background: transparent;
 	color: white;
 	font-size: 2em;
+}
+
+.error{
+	color: #b71c1c;
 }
 
 .numbers{
@@ -60,7 +64,7 @@ body{
   flex: 1;
   justify-content: center;
   align-items: center;   /* <---- NEW    */
-  min-height: 25%; 
+  min-height: 20%; 
 }
 
 .equalbtn {
