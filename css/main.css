@@ -62,3 +62,18 @@ body{
   align-items: center;   /* <---- NEW    */
   min-height: 25%; 
 }
+
+.equalbtn {
+	color: #111;
+	font-size: 30px;
+	background: #eeff41;
+	box-shadow: 1px 1px 10px black;
+	width: 60px;
+	height: 60px;
+	border-radius: 120px;
+	transition: background 0.3s ease;
+}
+
+.equalbtn:hover{
+	background: #D4E61D;
+}
