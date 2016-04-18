@@ -67,6 +67,10 @@ body{
   min-height: 20%; 
 }
 
+.clearbtn , .numbtn, .equalbtn {
+ cursor: pointer;
+}
+
 .equalbtn {
 	color: #111;
 	font-size: 30px;

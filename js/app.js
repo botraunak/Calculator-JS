@@ -66,7 +66,7 @@ $(document).ready(function(){
 		function _render(){
 			var expression = exp || "Your Expression Goes Here";
 			$exp.text(expression);
-			$res.text(res.ans).removeClass('error');
+			$res.text(res.ans || "Ans").removeClass('error');
 
 			if(res.error)
 				$res.addClass('error');
